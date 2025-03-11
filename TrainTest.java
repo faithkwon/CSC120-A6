@@ -14,7 +14,6 @@ public class TrainTest {
     @Test
     public void testEngineGo() {
         Engine newEngine = new Engine(FuelType.ELECTRIC, 10.0, 10.0);
-
         newEngine.go();
 
         assertTrue(9.0 == newEngine.getCurrentFuel());
